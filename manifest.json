@@ -15,11 +15,6 @@
       "type": "entity",
       "partition": "greedy",
       "path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "greedy",
-      "path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/outfits_bank.brick].pc_entitytype"
     }
   ],
   "localisation": {

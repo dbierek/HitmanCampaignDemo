@@ -1,0 +1,8 @@
+{
+	"95510781-df40-49c8-89f2-a2024c4f7440": {
+		"Image": "images/entrances/bank_entrance_ceo.jpg",
+		"Name_LOC": "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME",
+		"Name": "Bank CEO Office Starting Location",
+		"Description": "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC"
+	}
+}

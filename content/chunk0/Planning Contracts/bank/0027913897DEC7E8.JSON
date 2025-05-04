@@ -1,0 +1,16 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "95510781-df40-49c8-89f2-a2024c4f7440",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": true,
+            "WorldTransform": "-0.044435, 0.999012, 0, -0.999012, -0.044435, 0, 0, 0, 1, -53.10691, -23.68412, -1.97"
+        }
+    ],
+    "Exits": [
+    ],
+    "AgencyPickups": [
+    ]
+}
