@@ -15,7 +15,6 @@
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scenario_bank.brick].entitytype"
 	],
 	"subType": "scene",
