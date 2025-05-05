@@ -1,6 +1,6 @@
 {
-	"tempHash": "00A5F144438447A3",
-	"tbluHash": "008D46950E360AF2",
+	"tempHash": "00AAF97103C4A949",
+	"tbluHash": "00A3A99945D58A3D",
 	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"fffffffffffffffe": {
@@ -474,8 +474,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+						"position": {
+							"x": -20.26884,
+							"y": 57.282745,
+							"z": 25.000002
+						},
+						"scale": { "x": 1, "y": 1, "z": 1 }
 					}
 				},
 				"m_sId": {
