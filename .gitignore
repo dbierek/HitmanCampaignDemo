@@ -2,3 +2,4 @@ package.json
 package-lock.json
 .releaserc
 node_modules
+.idea

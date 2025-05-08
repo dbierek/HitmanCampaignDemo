@@ -494,6 +494,155 @@
 					"postInit": true
 				}
 			}
+		},
+		"cafeb1f728e13648": {
+			"parent": "abcd85cba5ab5afa",
+			"name": "Props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe74d92101d476": {
+			"parent": "cafeb1f728e13648",
+			"name": "chair_leather_modern_d_black",
+			"factory": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/chair_leather_modern_d_black.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/consulate_props/consulate_props_a.template?/chair_leather_modern_d_black.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -179.45751533537714
+						},
+						"position": {
+							"x": 3.3254239559173584,
+							"y": 9.43584442138672,
+							"z": 0.016611000522971153
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b700f19a9874f3c9",
+						"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"cafe6e1f7ad3384a": {
+			"parent": "cafe74d92101d476",
+			"name": "DarkLight",
+			"factory": "[modules:/zdarklightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 179.4436493081472
+						},
+						"position": {
+							"x": 0.020349999889731407,
+							"y": 0.5189020037651062,
+							"z": 0.06637199968099594
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.9043999910354616,
+						"y": 1.902340054512024,
+						"z": 0.7212479710578918
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.32082599401474,
+						"y": 0.7966110110282898,
+						"z": 0.0
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 0.699999988079071
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6044399738311768,
+						"y": 0.9467800259590148,
+						"z": 0.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe74d92101d476"
+				}
+			}
+		},
+		"cafef8dfa98aa2d8": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_TargetMcTargetface",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -0.0 },
+						"position": {
+							"x": -22.26884,
+							"y": 55.282745,
+							"z": 25.000002
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "dc727ada-7b41-4ee3-ac55-746b4be9d10f"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "c711befb-fb0c-4ee8-bc97-48b9d9a3669e"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Target McTargetface"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALE01"
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -507,13 +656,75 @@
 			"properties": {
 				"m_bDefaultHeroSpawn": { "type": "bool", "value": false }
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9a48c136c0d8fb01",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 88.01912 },
+						"position": {
+							"x": -27.27426,
+							"y": 57.66893,
+							"z": 25
+						},
+						"scale": { "x": 1, "y": 1, "z": 1 }
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3f33852272bbd53f",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.navp].pc_navp",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4247b786624f801f",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.airg].pc_airg",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	],
-	"overrideDeletes": [],
+	"overrideDeletes": [
+		{
+			"ref": "12f1f8b87ed48246",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		}
+	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/outfits_bank.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

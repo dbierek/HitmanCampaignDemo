@@ -1,15 +1,47 @@
 {
     "Data": {
         "EnableSaving": true,
-        "Objectives": [],
+        "Objectives": [
+            {
+                "Id": "13959196-1be0-13ea-1234-1afa70822323",
+                "Category": "primary",
+                "ObjectiveType": "setpiece",
+                "DisplayAsKillObjective": true,
+                "ForceShowOnLoadingScreen": true,
+                "IsHidden": false,
+                "BriefingName": "$($repository dc727ada-7b41-4ee3-ac55-746b4be9d10f).Name",
+                "Image": "images/campaign_demo/target_mc_targetface.jpg",
+                "HUDTemplate": {
+                    "display": "Eliminate Eugene Cobb"
+                },
+                "BriefingText": "Eliminate Eugene Cobb",
+                "SuccessEvent": {
+                    "EventName": "Kill",
+                    "EventValues": {
+                        "RepositoryId": "dc727ada-7b41-4ee3-ac55-746b4be9d10f"
+                    }
+                }
+            }
+        ],
         "GameDifficulties": [
-			{ "Difficulty": "easy", "Bricks": [] },
-			{ "Difficulty": "normal", "Bricks": [] },
-			{ "Difficulty": "hard", "Bricks": [] }
-		],
+            {
+                "Difficulty": "easy",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "normal",
+                "Bricks": []
+            },
+            {
+                "Difficulty": "hard",
+                "Bricks": []
+            }
+        ],
         "Bricks": [],
         "DevOnlyBricks": [],
-		"Entrances": ["95510781-df40-49c8-89f2-a2024c4f7440"],
+        "Entrances": [
+            "95510781-df40-49c8-89f2-a2024c4f7440"
+        ],
         "GameChangers": [],
         "GameChangerReferences": []
     },
@@ -25,9 +57,11 @@
         "LastUpdate": "2025-05-02T19:44:00.000Z",
         "CreationTimestamp": "2025-05-02T19:44:00.000Z",
         "CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
-		"Type": "mission",
-		"Release": "3.0.0",
-		"Entitlements": ["H2_LEGACY_EXPANSION"]
+        "Type": "mission",
+        "Release": "3.0.0",
+        "Entitlements": [
+            "H2_LEGACY_EXPANSION"
+        ]
     },
     "UserData": {},
     "SMF": {

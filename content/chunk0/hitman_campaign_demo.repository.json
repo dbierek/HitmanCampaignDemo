@@ -1,8 +1,1 @@
-{
-	"95510781-df40-49c8-89f2-a2024c4f7440": {
-		"Image": "images/entrances/bank_entrance_ceo.jpg",
-		"Name_LOC": "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME",
-		"Name": "Bank CEO Office Starting Location",
-		"Description": "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC"
-	}
-}
+{"dc727ada-7b41-4ee3-ac55-746b4be9d10f":{"CharacterSetIndex":0.0,"Description":"Target McTargetface","Description_LOC":"actor_description","Image":"images/campaign_demo/target_mc_targetface.jpg","Name":"Target McTargetface","Outfit":"c711befb-fb0c-4ee8-bc97-48b9d9a3669e","OutfitVariationIndex":0.0,"Tile":"images/campaign_demo/target_mc_targetface.jpg"},"95510781-df40-49c8-89f2-a2024c4f7440":{"Image":"images/entrances/bank_entrance_ceo.jpg","Name_LOC":"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME","Name":"Bank CEO Office Starting Location","Description":"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC"},"c711befb-fb0c-4ee8-bc97-48b9d9a3669e":{"CommonName":"Outfit Target McTargetface","Description":"Outfit Target McTargetface","Name":"Outfit Target McTargetface","Category":"","HeroDisguiseAvailable":false,"Image":"","ImageTransparent":"","IsHitmanSuit":false,"TokenID":""}}
