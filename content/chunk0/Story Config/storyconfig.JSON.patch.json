@@ -17,6 +17,11 @@
                         "Type": "Mission",
                         "Id": "17268611-5b1a-4759-831b-bdf5d0cdf378",
                         "_comment": "The bank mission for the Hitman Campaign Demo"
+                    },
+                    {
+                        "Type": "Mission",
+                        "Id": "236b75d5-f8eb-4f79-af45-de7fa5a85050",
+                        "_comment": "The Modtown Throwdown mission for the Hitman Campaign Demo"
                     }
                 ]
             }

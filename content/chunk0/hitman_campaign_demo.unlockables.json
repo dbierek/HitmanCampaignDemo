@@ -16,5 +16,90 @@
 			"Equip": [],
 			"UnlockOrder": 3
 		}
+	},
+	"LOCATION_PARENT_MODLANDIA": {
+		"Guid": "2b7f65dc-4216-4ec1-a109-e6b711e5d0ba",
+		"Type": "location",
+		"Subtype": "location",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Icon": "images/locations/modlandia/tile.jpg",
+			"LockedIcon": "images/locations/modlandia/tile.jpg",
+			"DlcImage": "images/livetile/dlc/tile_hitman3.jpg",
+			"DlcName": "GAME_STORE_METADATA_S3_GAME_TITLE",
+			"IsLocked": false,
+			"UpcomingContent": false,
+			"UpcomingKey": "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
+			"Background": "images/locations/modlandia/background.jpg",
+			"Order": 0,
+			"LimitedLoadout": false,
+			"NormalLoadoutUnlock": "",
+			"ProgressionKey": "LOCATION_MODLANDIA",
+			"Season": 1,
+			"RequiredResources": [
+				"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity].entitytemplate"
+			],
+			"Entitlements": [
+				"H1_LEGACY_STANDARD"
+			]
+		}
+	},
+	"LOCATION_MODTOWN": {
+		"Guid": "1502bf7a-df87-4bd8-b5d2-fef8250a4d74",
+		"Type": "location",
+		"Subtype": "sublocation",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"ParentLocation": "LOCATION_PARENT_MODLANDIA",
+			"Icon": "images/campaign_demo/modtown/tile.jpg",
+			"LockedIcon": "images/campaign_demo/modtown/tile.jpg",
+			"DlcImage": "images/livetile/dlc/tile_hitman3.jpg",
+			"DlcName": "GAME_STORE_METADATA_S3_GAME_TITLE",
+			"IsLocked": false,
+			"UpcomingContent": false,
+			"UpcomingKey": "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
+			"Background": "images/campaign_demo/modtown/background.jpg",
+			"Order": 0,
+			"LimitedLoadout": false,
+			"ProgressionKey": "LOCATION_MODTOWN",
+			"CreateContractId": "0a505002-462a-4fe3-9d77-3f7ff9004981",
+			"HideProgression": false,
+			"RequiredResources": [
+				"[assembly:/_pro/scenes/missions/campaign_demo/modtown/scene_modtown.entity].entitytemplate"
+			],
+			"Entitlements": [
+				"H1_LEGACY_EXPANSION"
+			]
+		}
+	},
+	"STARTING_LOCATION_OUTSIDE": {
+		"Guid": "dd4e7631-32c3-49cd-9696-1ecf70a7e4c9",
+		"Type": "access",
+		"Subtype": "startinglocation",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Location": "LOCATION_MODTOWN",
+			"RepositoryId": "80b295ed-a9e7-4e7e-8f44-adbd9f181f41",
+			"Equip": [],
+			"UnlockOrder": 3
+		}
 	}
 }

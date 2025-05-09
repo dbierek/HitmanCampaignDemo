@@ -29,6 +29,21 @@
 			"name": "MenuMapSetup_HitmanCampaignDemo",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9db80605c093": {
+			"parent": "cafec70c839d5d5f",
+			"name": "Scene_Modtown",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001421449C722898",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],

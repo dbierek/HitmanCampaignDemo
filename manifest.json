@@ -18,8 +18,8 @@
     },
     {
       "type": "entity",
-      "partition": "greedy",
-      "path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/outfits_bank.brick].pc_entitytype"
+      "partition": "season3",
+      "path": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity].entitytemplate"
     }
   ],
   "localisation": {
@@ -31,7 +31,18 @@
       "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME": "CEO's Office",
       "UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC": "47 has made his way to the CEO's office.",
       "NPC_TARGET_MCTARGETFACE_NAME": "Target McTargetface",
-      "NPC_TARGET_MCTARGETFACE_DESC": "Target McTargetface is the new CEO of the Milton Fitzpatrick Bank."
+      "NPC_TARGET_MCTARGETFACE_DESC": "Target McTargetface is the new CEO of the Milton Fitzpatrick Bank.",
+      "UI_LOCATION_PARENT_MODLANDIA_COUNTRY": "Modlandia",
+      "UI_LOCATION_MODTOWN_COUNTRY": "Modlandia",
+      "UI_LOCATION_PARENT_MODLANDIA_CITY": "Modtown",
+      "UI_LOCATION_MODTOWN_CITY": "Modtown",
+      "UI_LOCATION_MODTOWN_TITLE": "Modtown Throwdown",
+      "UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DEFAULT_NAME": "Outside",
+      "UI_STARTING_LOCATION_MODTOWN_OUTSIDE_DESC": "47 has made his way outside in Modtown.",
+      "UI_MODTOWN_DESC": "I need to take out Super Targetman.",
+      "UI_MODTOWN_TITLE": "Modtown Throwdown",
+      "NPC_SUPER_TARGETMAN_NAME": "Super Targetman",
+      "NPC_SUPER_TARGETMAN_DESC": "Super Targetman is the villian of Modlandia."
     }
   },
   "updateCheck": "https://github.com/SonsOfProvidence/SonsOfProvidence/releases/latest/download/updates.json"

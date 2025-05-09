@@ -3,22 +3,22 @@
         "EnableSaving": true,
         "Objectives": [
             {
-                "Id": "13959196-1be0-13ea-1234-1afa70822323",
+                "Id": "dd16a090-9b0e-4736-97cc-aeb926de6ef0",
                 "Category": "primary",
                 "ObjectiveType": "setpiece",
                 "DisplayAsKillObjective": true,
                 "ForceShowOnLoadingScreen": true,
                 "IsHidden": false,
-                "BriefingName": "$($repository dc727ada-7b41-4ee3-ac55-746b4be9d10f).Name",
-                "Image": "images/campaign_demo/bank/target_mc_targetface.jpg",
+                "BriefingName": "$($repository 1f05413b-431b-41ba-86d6-0a6963a6086d).Name",
+                "Image": "images/campaign_demo/modtown/super_targetman.jpg",
                 "HUDTemplate": {
-                    "display": "Eliminate Target McTargetface"
+                    "display": "Eliminate Super Targetman"
                 },
-                "BriefingText": "Eliminate Target McTargetface",
+                "BriefingText": "Eliminate Super Targetman",
                 "SuccessEvent": {
                     "EventName": "Kill",
                     "EventValues": {
-                        "RepositoryId": "dc727ada-7b41-4ee3-ac55-746b4be9d10f"
+                        "RepositoryId": "1f05413b-431b-41ba-86d6-0a6963a6086d"
                     }
                 }
             }
@@ -40,20 +40,20 @@
         "Bricks": [],
         "DevOnlyBricks": [],
         "Entrances": [
-            "95510781-df40-49c8-89f2-a2024c4f7440"
+            "80b295ed-a9e7-4e7e-8f44-adbd9f181f41"
         ],
         "GameChangers": [],
         "GameChangerReferences": []
     },
     "Metadata": {
-        "Id": "17268611-5b1a-4759-831b-bdf5d0cdf378",
+        "Id": "236b75d5-f8eb-4f79-af45-de7fa5a85050",
         "IsPublished": true,
-        "Title": "UI_BANK_TITLE",
-        "Description": "UI_BANK_DESC",
-        "CodeName_Hint": "New York",
-        "ScenePath": "assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity",
-        "TileImage": "images/campaign_demo/bank/tile.jpg",
-        "Location": "LOCATION_GREEDY_RACCOON",
+        "Title": "UI_MODTOWN_TITLE",
+        "Description": "UI_MODTOWN_DESC",
+        "CodeName_Hint": "Modtown",
+        "ScenePath": "assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity",
+        "TileImage": "images/campaign_demo/modtown/tile.jpg",
+        "Location": "LOCATION_MODTOWN",
         "LastUpdate": "2025-05-02T19:44:00.000Z",
         "CreationTimestamp": "2025-05-02T19:44:00.000Z",
         "CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",

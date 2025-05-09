@@ -1,0 +1,21 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "80b295ed-a9e7-4e7e-8f44-adbd9f181f41",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": true,
+            "WorldTransform": "0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0"
+        }
+	],
+	"Exits": [
+		{
+			"id": "f57a5c9a-6ab9-4b47-84b7-9a7ee990d534",
+			"WorldTransform": "0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0",
+			"RequireKey": false
+		}
+	],
+	"AgencyPickups": [
+	]
+}
