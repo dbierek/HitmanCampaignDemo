@@ -1,8 +1,8 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"id": "HitmanModder.HitmanCampaignDemo-test",
-	"name": "Hitman Campaign Demo - Test",
-	"description": "This mod is a Hitman Campaign Demo mod test.",
+	"id": "HitmanModder.HitmanCampaignDemo",
+	"name": "Hitman Campaign Demo",
+	"description": "This mod is a Hitman Campaign Demo mod.",
 	"authors": ["Hitman Modder"],
 	"frameworkVersion": "2.33.25",
 	"version": "0.4.0",
@@ -28,5 +28,5 @@
 			"NPC_TARGET_MCTARGETFACE_DESC": "Target McTargetface is the new CEO of the Milton-Fitzpatrick Bank."
 		}
 	},
-	"updateCheck": "https://github.com/dbierek/HitmanCampaignDemo-test/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/dbierek/HitmanCampaignDemo/releases/latest/download/updates.json"
 }
