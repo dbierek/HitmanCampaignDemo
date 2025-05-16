@@ -6,4 +6,4 @@ This mod is a Hitman Campaign Demo mod test.
 
 ---
 
-`HitmanModder.HitmanCampaignDemo-test` v0.3.0, by Hitman Modder. This README was automatically generated from the mod's manifest.
+`HitmanModder.HitmanCampaignDemo-test` v0.4.0, by Hitman Modder. This README was automatically generated from the mod's manifest.
