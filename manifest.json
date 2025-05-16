@@ -1,13 +1,19 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"id": "HitmanModder.HitmanCampaignDemo",
-	"name": "Hitman Campaign Demo",
+	"id": "HitmanModder.HitmanCampaignDemo-test",
+	"name": "Hitman Campaign Demo - Test",
 	"description": "This mod is a Hitman Campaign Demo mod.",
-	"authors": ["Hitman Modder"],
+	"authors": [
+		"Hitman Modder"
+	],
 	"frameworkVersion": "2.33.25",
 	"version": "0.2.0",
-	"blobsFolders": ["blobs"],
-	"contentFolders": ["content"],
+	"blobsFolders": [
+		"blobs"
+	],
+	"contentFolders": [
+		"content"
+	],
 	"dependencies": [],
 	"packagedefinition": [
 		{
@@ -23,7 +29,9 @@
 			"UI_BANK_DESC": "I need to take out Target McTargetface.",
 			"UI_BANK_TITLE": "Bank mission",
 			"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DEFAULT_NAME": "CEO's Office",
-			"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC": "47 has made his way to the CEO's office."
+			"UI_STARTING_LOCATION_BANK_CEO_OFFICE_DESC": "47 has made his way to the CEO's office.",
+			"NPC_TARGET_MCTARGETFACE_NAME": "Target McTargetface",
+			"NPC_TARGET_MCTARGETFACE_DESC": "Target McTargetface is the new CEO of the Milton-Fitzpatrick Bank."
 		}
 	},
 	"updateCheck": "https://github.com/dbierek/HitmanCampaignDemo-test/releases/latest/download/updates.json"
