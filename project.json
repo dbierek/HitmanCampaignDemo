@@ -1,1 +1,13 @@
-{"customPaths":["[assembly:/_pro/scenes/bricks/menumapsetup_hitman_campaign_demo.brick].pc_entitytype","[assembly:/_pro/scenes/bricks/menumapsetup_hitman_campaign_demo.brick].pc_entityblueprint","(planning_contract) greedy bank","[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity].pc_entityblueprint","[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity].pc_entitytemplate","[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scenario_bank.brick].pc_entitytype","[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scenario_bank.brick].pc_entityblueprint","[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.navp].pc_navp","[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.airg].pc_airg"]}
+{
+	"customPaths": [
+		"[assembly:/_pro/scenes/bricks/menumapsetup_hitman_campaign_demo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/menumapsetup_hitman_campaign_demo.brick].pc_entityblueprint",
+		"(planning_contract) greedy bank",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.entity].pc_entitytemplate",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scenario_bank.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scenario_bank.brick].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.navp].pc_navp",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_bank/scene_bank.airg].pc_airg"
+	]
+}
