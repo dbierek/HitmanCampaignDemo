@@ -580,34 +580,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"cafe4bcb2d247208": {
-			"parent": "cafe995193f17c36",
-			"name": "Floor",
-			"factory": "0065E6850BB157E2",
-			"blueprint": "00B6E9D9DA6DE143",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -10.0, "y": 10.0, "z": 0.0 }
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 20, "y": 20, "z": 1 }
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "cafed3731ff6ee59"
-				}
-			}
-		},
 		"cafe7f5b1f8ca4dc": {
 			"parent": "abcd56b67c5c3bc1",
 			"name": "Exit",
@@ -679,8 +651,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
-						"position": { "x": 0.0, "y": 5.0, "z": 0.0 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 10.0, "y": 0.0, "z": 0.0 }
 					}
 				},
 				"RepositoryId": {
@@ -770,6 +742,404 @@
 				"m_WorldBounds": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe114f1377f6e1"
+				}
+			}
+		},
+		"cafe8874eb4f6ced": {
+			"parent": "abcdeaf23812acfd",
+			"name": "Pathfinder_Configuration",
+			"factory": "[modules:/zpathfinderconfiguration.class].pc_entitytype",
+			"blueprint": "[modules:/zpathfinderconfiguration.class].pc_entityblueprint",
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.navp].pc_navp",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafeb843db1507ad": {
+			"parent": "abcdf6bc0632156d",
+			"name": "AI Reasoning Grid",
+			"factory": "[modules:/zreasoninggridconfigentity.class].pc_entitytype",
+			"blueprint": "[modules:/zreasoninggridconfigentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.airg].pc_airg",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe45684237908f": {
+			"parent": "cafe995193f17c36",
+			"name": "House",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 10, "y": 0, "z": 0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed3731ff6ee59",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2d4b46c5d119": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_interior_6x4_a",
+			"factory": "002F16DE346B6EA2",
+			"blueprint": "0093E9954FD21B72",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 9.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe50e73dd5499e": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_interior_6x4_a",
+			"factory": "002F16DE346B6EA2",
+			"blueprint": "0093E9954FD21B72",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.027976455952056382,
+							"z": -180.0
+						},
+						"position": { "x": 9.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe570732702003": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_interior_6x4_a",
+			"factory": "002F16DE346B6EA2",
+			"blueprint": "0093E9954FD21B72",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": { "x": 7.0, "y": -2.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe979664169f82": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_interior_6x4_a",
+			"factory": "002F16DE346B6EA2",
+			"blueprint": "0093E9954FD21B72",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -89.9999965849052
+						},
+						"position": { "x": 7.0, "y": 2.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafedc8936f99e6f": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_interior_6x4_a",
+			"factory": "002F16DE346B6EA2",
+			"blueprint": "0093E9954FD21B72",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9802163566761
+						},
+						"position": { "x": 7.0, "y": -2.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6ce8a6419315": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_interior_6x4_a",
+			"factory": "002F16DE346B6EA2",
+			"blueprint": "0093E9954FD21B72",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": { "x": 7.0, "y": 2.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafec805c07d6579": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_door_interior_6x2_a",
+			"factory": "00C27DFE61D5CBCD",
+			"blueprint": "0018381D3220B68C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.0, "y": 0.0, "z": 0.0 },
+						"position": { "x": 5.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe31681fe57417": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_door_interior_6x2_a",
+			"factory": "00C27DFE61D5CBCD",
+			"blueprint": "0018381D3220B68C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 4.182619822012793e-6,
+							"y": 0.02422832233091552,
+							"z": 179.98021766137256
+						},
+						"position": { "x": 5.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafedec15095c3d5": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_corner_edge_interior_6m_a_15",
+			"factory": "006028F9B75C593D",
+			"blueprint": "0010E858A67F9BC5",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": { "x": 9.0, "y": 2.0, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe64364e5264c9": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_corner_edge_interior_6m_a_15",
+			"factory": "006028F9B75C593D",
+			"blueprint": "0010E858A67F9BC5",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 5.0, "y": 2.0, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafec78e88a8cbce": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_corner_edge_interior_6m_a_15",
+			"factory": "006028F9B75C593D",
+			"blueprint": "0010E858A67F9BC5",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.027976455952056382,
+							"z": -180.0
+						},
+						"position": { "x": 9.0, "y": -2.0, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafec10f8e3d7c8d": {
+			"parent": "cafe45684237908f",
+			"name": "penthouse_wall_corner_edge_interior_6m_a_15",
+			"factory": "006028F9B75C593D",
+			"blueprint": "0010E858A67F9BC5",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.415094585006372e-6,
+							"y": 0.019782338627427253,
+							"z": -89.9802163578553
+						},
+						"position": { "x": 5.0, "y": -2.0, "z": 0.0 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 1.0, "y": 1.0, "z": 1.0 }
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe98ce737d47fe": {
+			"parent": "cafe45684237908f",
+			"name": "Gecko_Singledoor_Penthouse_Staff_Bathroom_A",
+			"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors_gecko_a.template?/gecko_singledoor_penthouse_staff_bathroom_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors_gecko_a.template?/gecko_singledoor_penthouse_staff_bathroom_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 5.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_rGateEntity": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_bIsLocked": { "type": "bool", "value": false },
+				"m_bValueOpenFromInside": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bValueOpenFromOutside": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bValueUnlockIfOpened": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe45684237908f"
+				}
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafe0557cbee5216": {
+			"parent": "cafe995193f17c36",
+			"name": "modtown",
+			"factory": "[assembly:/_pro/environment/geometry/modtown/modtown.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/geometry/modtown/modtown.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 57.0, "y": 0.0, "z": -0.8 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafed3731ff6ee59"
 				}
 			}
 		}

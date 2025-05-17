@@ -9,6 +9,7 @@
 	"blobsFolders": ["blobs"],
 	"contentFolders": ["content"],
 	"dependencies": [],
+	"peacockPlugins": ["HitmanCampaignDemo.plugin.js"],
 	"packagedefinition": [
 		{
 			"type": "entity",
