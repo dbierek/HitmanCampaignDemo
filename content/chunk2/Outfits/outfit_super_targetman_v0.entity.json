@@ -1,6 +1,6 @@
 {
-	"tempHash": "00B09748D213DDE9",
-	"tbluHash": "00B57E5608844F8C",
+	"tempHash": "007CF7E44ABD6874",
+	"tbluHash": "00067156F72D695E",
 	"rootEntity": "cafefbfa8fa53858",
 	"entities": {
 		"cafe67d4cd0799e0": {
@@ -45,9 +45,9 @@
 		},
 		"cafe9afadf9e68a6": {
 			"parent": "cafefbfa8fa53858",
-			"name": "Head_TargetMcTargetface",
-			"factory": "006D0B626E560A34",
-			"blueprint": "00A1D365A6E9F46A",
+			"name": "Head_SuperTargetman",
+			"factory": "00869A3B6F8D2C2C",
+			"blueprint": "00960B58200A0162",
 			"properties": {
 				"ConstantColorRGB_02_Value": {
 					"type": "SColorRGB",
@@ -1371,7 +1371,7 @@
 		},
 		"cafefbfa8fa53858": {
 			"parent": null,
-			"name": "OUTFIT_TargetMcTargetface_M_Actor_v0",
+			"name": "OUTFIT_SuperTargetman_M_Actor_v0",
 			"factory": "00C0753FBF784C66",
 			"blueprint": "007294473357329E",
 			"properties": {

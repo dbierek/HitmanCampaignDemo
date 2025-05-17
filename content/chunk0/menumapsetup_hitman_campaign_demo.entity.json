@@ -29,6 +29,21 @@
 					}
 				}
 			}
+		},
+		"cafe8c42e706adbd": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Modtown",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001421449C722898",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],
