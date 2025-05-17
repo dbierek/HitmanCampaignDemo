@@ -1,6 +1,6 @@
 {
-	"tempHash": "00CDC68875964976",
-	"tbluHash": "00A51BA858968BCB",
+	"tempHash": "00C97A30845B2E3E",
+	"tbluHash": "00AE67BE38D56B21",
 	"rootEntity": "fffffffffffffffe",
 	"entities": {
 		"fffffffffffffffe": {
@@ -11,13 +11,13 @@
 		},
 		"cafea43504bb3344": {
 			"parent": "fffffffffffffffe",
-			"name": "Target McTargetface",
+			"name": "Super Targetman",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 			"properties": {
 				"m_sId": {
 					"type": "ZGuid",
-					"value": "ac24fc2f-8e34-4173-ba65-e6e267d4f973"
+					"value": "5f19af97-4ad1-46e4-aaf6-46f856519072"
 				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
@@ -36,11 +36,11 @@
 				},
 				"m_sCommonName": {
 					"type": "ZString",
-					"value": "Target McTargetface"
+					"value": "Super Targetman"
 				},
 				"m_sTitle": {
 					"type": "ZString",
-					"value": "Target McTargetface"
+					"value": "Super Targetman"
 				},
 				"m_DamageMultipliers": {
 					"type": "SBodyPartDamageMultipliers",
@@ -91,9 +91,9 @@
 		},
 		"cafec7a4b559e4bc": {
 			"parent": "cafea43504bb3344",
-			"name": "CHARSET_TargetMcTargetface",
-			"factory": "[assembly:/_pro/characters/templates/hitman_campaign_demo/charset_target_mctargetface.entitytemplate].pc_entitytemplate",
-			"blueprint": "[assembly:/_pro/characters/templates/hitman_campaign_demo/charset_target_mctargetface.entitytemplate].pc_entityblueprint"
+			"name": "CHARSET_SuperTargetman",
+			"factory": "[assembly:/_pro/characters/templates/hitman_campaign_demo/charset_super_targetman.entitytemplate].pc_entitytemplate",
+			"blueprint": "[assembly:/_pro/characters/templates/hitman_campaign_demo/charset_super_targetman.entitytemplate].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
