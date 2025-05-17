@@ -5,7 +5,7 @@
 	"description": "This mod is a Hitman Campaign Demo mod.",
 	"authors": ["Hitman Modder"],
 	"frameworkVersion": "2.33.25",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"blobsFolders": ["blobs"],
 	"contentFolders": ["content"],
 	"dependencies": [],
