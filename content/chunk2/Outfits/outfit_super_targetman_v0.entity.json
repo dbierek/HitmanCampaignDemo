@@ -659,11 +659,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafea173735be5f1",
-						"cafef24fb4e9f44d",
-						"cafe601a0c6ba87c"
-					],
+					"value": ["cafea173735be5f1", "cafef24fb4e9f44d", "cafe601a0c6ba87c"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2198,11 +2194,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe6c14725a5465",
-						"cafe39864d42c0c2",
-						"cafe4b5f7df668ee"
-					],
+					"value": ["cafe6c14725a5465", "cafe39864d42c0c2", "cafe4b5f7df668ee"],
 					"postInit": true
 				},
 				"m_eidParent": {

@@ -3,17 +3,11 @@
 	"id": "HitmanModder.HitmanCampaignDemo",
 	"name": "Hitman Campaign Demo",
 	"description": "This mod is a Hitman Campaign Demo mod.",
-	"authors": [
-		"Hitman Modder"
-	],
+	"authors": ["Hitman Modder"],
 	"frameworkVersion": "2.33.25",
-	"version": "0.5.0",
-	"blobsFolders": [
-		"blobs"
-	],
-	"contentFolders": [
-		"content"
-	],
+	"version": "0.6.0",
+	"blobsFolders": ["blobs"],
+	"contentFolders": ["content"],
 	"dependencies": [],
 	"packagedefinition": [
 		{

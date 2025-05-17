@@ -44,9 +44,7 @@
 			"RequiredResources": [
 				"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity].entitytemplate"
 			],
-			"Entitlements": [
-				"H1_LEGACY_STANDARD"
-			]
+			"Entitlements": ["H1_LEGACY_STANDARD"]
 		}
 	},
 	"LOCATION_MODTOWN": {
@@ -78,9 +76,7 @@
 			"RequiredResources": [
 				"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.entity].entitytemplate"
 			],
-			"Entitlements": [
-				"H1_LEGACY_EXPANSION"
-			]
+			"Entitlements": ["H1_LEGACY_EXPANSION"]
 		}
 	},
 	"STARTING_LOCATION_OUTSIDE": {
