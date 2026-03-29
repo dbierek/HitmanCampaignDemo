@@ -7,7 +7,7 @@
 	"frameworkVersion": "2.33.25",
 	"version": "0.7.0",
 	"blobsFolders": ["blobs"],
-	"contentFolders": ["content"],
+	"contentFolders": ["shared", "bank", "modland"],
 	"dependencies": [],
 	"peacockPlugins": ["HitmanCampaignDemo.plugin.js"],
 	"packagedefinition": [
