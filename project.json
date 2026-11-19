@@ -32,6 +32,8 @@
 		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mission_modtown/scene_modtown.airg].pc_airg",
 		"[assembly:/_pro/environment/geometry/modtown/modtown.prim].pc_entitytype",
 		"[assembly:/_pro/environment/geometry/modtown/modtown.entitytemplate].pc_entitytype",
-		"[assembly:/_pro/environment/geometry/modtown/modtown.entitytemplate].pc_entityblueprint"
+		"[assembly:/_pro/environment/geometry/modtown/modtown.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mapcontent_modland_modtown.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mapcontent_modland_modtown.brick].pc_entityblueprint"
 	]
 }

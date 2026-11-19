@@ -1468,7 +1468,8 @@
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/ui_hitman_s2.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/ui_hitman_s3.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/tod_day_sunny_clear.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/tod_day_sunny_clear.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/hitman_campaign_demo/mapcontent_modland_modtown.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
